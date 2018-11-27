@@ -1,5 +1,9 @@
 package com.mk.KothaliArmyFoundationServices;
 
-public class HomeService {
+import java.util.List;
 
+import com.mk.KothaliArmyFoundationBO.HomeBO;
+
+public interface HomeService {
+	public List<HomeBO> getKothaliFoundationDetails();
 }
